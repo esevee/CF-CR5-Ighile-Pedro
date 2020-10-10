@@ -1,0 +1,74 @@
+$dark: #000;
+$snowWhite: #fff;
+$offWhite: #eaeaea;
+$holyGray: #454545;
+$wilderness: #1d2329;
+$cardColor: #181818;
+$iconsGreen: #32a23d;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark;
+}
+
+.container {
+    .movieFactory{
+        background-color: $dark;
+        color: $snowWhite;
+        text-align: center;
+        padding: .5rem 0;
+    }
+    .home {
+        background-color: $holyGray;
+        color: $offWhite;
+        padding: .3rem 0 .3rem 2rem;
+    }
+    .moviesSort {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0 .5rem 30rem;
+        font-size: 1.5rem;
+     #sort {
+       
+     }
+    }
+    
+}
+
+.no-gutters {
+    height: 205px;
+}
+
+.card {
+    height: 205px;
+}
+
+.col-md-4 img {
+    height: 205px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.likes  {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.footer {
+    height: 100px;
+    margin-top: 60px;
+    h1 {
+        margin-top: 20px;
+    }
+}

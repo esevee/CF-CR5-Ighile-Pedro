@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.container .movieFactory {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.container .home {
+  background-color: #454545;
+  color: #eaeaea;
+  padding: .3rem 0 .3rem 2rem;
+}
+
+.container .moviesSort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0 .5rem 30rem;
+  font-size: 1.5rem;
+}
+
+.no-gutters {
+  height: 205px;
+}
+
+.card {
+  height: 205px;
+}
+
+.col-md-4 img {
+  height: 205px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.likes {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.likes button {
+  background-color: transparent;
+  border: none;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 60px;
+}
+
+.footer h1 {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */

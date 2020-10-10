@@ -1,0 +1,38 @@
+var ourMovies = `[
+    {
+        "movieName": "A Star is Born",
+        "image": "https://de.web.img3.acsta.net/pictures/18/09/07/14/06/3432159.jpg",
+        "description": "Short description",
+        "likes": 15
+    },
+    {
+        "movieName": "Fight with Json",
+        "image": "https://m.media-amazon.com/images/I/51IjRJPluwL._SS500_.jpg",
+        "description": "Short description",
+        "likes": 20
+    },
+    {
+        "movieName": "sleeping with Css",
+        "image": "https://css-art.com/artwork/pure-css-sleeping/splash.png",
+        "description": "Short description",
+        "likes": 8
+    },
+    {
+        "movieName": "flying Bootstrap",
+        "image": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(28).jpg",
+        "description": "Short description",
+        "likes": 4
+    },
+    {
+        "movieName": "the gods must be crazy",
+        "image": "https://i.pinimg.com/originals/50/1b/6a/501b6a6034f192b466f20a0e1108ba5d.jpg",
+        "description": "Short description",
+        "likes": 3
+    },
+    {
+        "movieName": "No pain No gain",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61UVWrIXcTL._AC_SY679_.jpg",
+        "description": "Short description",
+        "likes": 8
+    }
+]`
