@@ -6,9 +6,30 @@ $(document).ready (function(){
      
     };                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     
-    $('.likes').click(function() {
+    $('.likes:eq(0)').click(function() {
         $('span:eq(0)').html(function(i, val) { return val*1+1 });
         
     });
+    $('.likes:eq(1)').click(function() {
+        $('span:eq(1)').html(function(i, val) { return val*1+1 });
+        
+    });
+    $('.likes:eq(2)').click(function() {
+        $('span:eq(2)').html(function(i, val) { return val*1+1 });
+        
+    });
+    $('.likes:eq(3)').click(function() {
+        $('span:eq(3)').html(function(i, val) { return val*1+1 });
+        
+    });
+    $('.likes:eq(4)').click(function() {
+        $('span:eq(4)').html(function(i, val) { return val*1+1 });
+        
+    });
+    $('.likes:eq(5)').click(function() {
+        $('span:eq(5)').html(function(i, val) { return val*1+1 });
+        
+    });
+    
     
 });
