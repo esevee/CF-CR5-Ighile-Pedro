@@ -2,6 +2,7 @@ $dark: #000;
 $snowWhite: #fff;
 $offWhite: #eaeaea;
 $holyGray: #454545;
+$cardBlack: #181818;
 $wilderness: #1d2329;
 $cardColor: #181818;
 $iconsGreen: #32a23d;
@@ -11,16 +12,16 @@ $iconsGreen: #32a23d;
     box-sizing: border-box;
 }
 
-body {
-    background-color: $dark;
-}
+
 
 .container {
+    background-color: $wilderness;
     .movieFactory{
         background-color: $dark;
         color: $snowWhite;
         text-align: center;
         padding: .5rem 0;
+    
     }
     .home {
         background-color: $holyGray;
@@ -32,19 +33,39 @@ body {
         justify-content: space-between;
         padding: 1rem 0 .5rem 30rem;
         font-size: 1.5rem;
-     #sort {
-       
-     }
+        color: $offWhite;
     }
     
 }
-
+#Maincontent {
+    margin-bottom: 15em;
+}
 .no-gutters {
     height: 205px;
 }
 
 .card {
     height: 205px;
+}
+#like {
+    margin-bottom: 1em;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: $iconsGreen;
+}
+span{
+    color: $snowWhite;
+    background-color: $iconsGreen;
+    border-radius: 50%;
+    padding: 1em;
+    
+}
+.col-md-8 {
+    background-color: $cardBlack;
+    color: $offWhite;
+    
 }
 
 .col-md-4 img {

@@ -3,13 +3,13 @@ var ourMovies = `[
         "movieName": "A Star is Born",
         "image": "https://de.web.img3.acsta.net/pictures/18/09/07/14/06/3432159.jpg",
         "description": "Short description",
-        "likes": 15
+        "likes": 1
     },
     {
         "movieName": "Fight with Json",
         "image": "https://m.media-amazon.com/images/I/51IjRJPluwL._SS500_.jpg",
         "description": "Short description",
-        "likes": 20
+        "likes": 2
     },
     {
         "movieName": "sleeping with Css",

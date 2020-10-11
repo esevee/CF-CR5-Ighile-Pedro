@@ -5,8 +5,8 @@
           box-sizing: border-box;
 }
 
-body {
-  background-color: #000;
+.container {
+  background-color: #1d2329;
 }
 
 .container .movieFactory {
@@ -31,6 +31,11 @@ body {
           justify-content: space-between;
   padding: 1rem 0 .5rem 30rem;
   font-size: 1.5rem;
+  color: #eaeaea;
+}
+
+#Maincontent {
+  margin-bottom: 15em;
 }
 
 .no-gutters {
@@ -39,6 +44,27 @@ body {
 
 .card {
   height: 205px;
+}
+
+#like {
+  margin-bottom: 1em;
+  border: none;
+  outline: none;
+  font-size: 1.3em;
+  text-transform: capitalize;
+  color: #32a23d;
+}
+
+span {
+  color: #fff;
+  background-color: #32a23d;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.col-md-8 {
+  background-color: #181818;
+  color: #eaeaea;
 }
 
 .col-md-4 img {
